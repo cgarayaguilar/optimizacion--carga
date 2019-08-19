@@ -60,7 +60,7 @@ valores */
 
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', system-ui;
   margin: 0;
 }
 
@@ -70,12 +70,14 @@ h3,
 h4,
 h5,
 h6{
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Fjalla One', system-ui;
   font-weight: normal;
   /* font-style: italic; */
 }
 
 h1 {
+  font-family: system-ui;
+  max-width: 500px;
   font-size: 40px;
   line-height: 1.5;
   letter-spacing: -.2px;
@@ -91,7 +93,7 @@ h1 strong {
 h2 {
   color: #026fff;
   text-transform: uppercase;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', system-ui;
   font-weight: bold;
   font-size: 24px;
   margin-bottom: 40px;
@@ -157,7 +159,7 @@ h2 {
   font-size: 20px;
 }
 .project strong {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Fjalla One', system-ui;
 }
 /* .project-date {
   margin: 10px 0;
